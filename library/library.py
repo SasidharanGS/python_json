@@ -2,6 +2,9 @@ import store, helper
 import os
 
 class Library():
+    '''
+    store and manage library book info
+    '''
     def __str__(self):
         return "library management class"
     def add_book(self):
